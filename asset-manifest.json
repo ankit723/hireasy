@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hireasy/static/css/main.c9155bb8.css",
+    "main.js": "/hireasy/static/js/main.8c89f5ce.js",
+    "static/js/787.3e913c4d.chunk.js": "/hireasy/static/js/787.3e913c4d.chunk.js",
+    "static/media/cbse.png": "/hireasy/static/media/cbse.4065b19fe880efa33441.png",
+    "static/media/bg4.jpg": "/hireasy/static/media/bg4.3868177b09333683c520.jpg",
+    "static/media/about-bg.jpg": "/hireasy/static/media/about-bg.a7670454c242c60bace6.jpg",
+    "static/media/lb.png": "/hireasy/static/media/lb.664474d9f6c25a4b08da.png",
+    "static/media/fee.png": "/hireasy/static/media/fee.d916cf2c16f8bb8b0a09.png",
+    "static/media/bg3.jpg": "/hireasy/static/media/bg3.9c684944e9c21587f199.jpg",
+    "static/media/logo.png": "/hireasy/static/media/logo.d68727c945758e73449f.png",
+    "index.html": "/hireasy/index.html",
+    "main.c9155bb8.css.map": "/hireasy/static/css/main.c9155bb8.css.map",
+    "main.8c89f5ce.js.map": "/hireasy/static/js/main.8c89f5ce.js.map",
+    "787.3e913c4d.chunk.js.map": "/hireasy/static/js/787.3e913c4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9155bb8.css",
+    "static/js/main.8c89f5ce.js"
+  ]
+}
