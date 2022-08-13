@@ -73,21 +73,6 @@ function App() {
       {/* Insider section */}
 
       <div className="cont-insider">
-        <div className="insider">
-            <div className="insider1">
-                <h3>Our Founders</h3>
-                <p>You Can See The Faces Behind This Initiative</p>
-            </div>
-            <div className="insider2">
-                <h3>Our Developers</h3>
-                <p>Check Out Our Developers </p>
-            </div>
-            <div className="insider3">
-                <h3>Contact Us</h3>
-                <p>CLick Here To COntact Us</p>
-            </div>   
-
-        </div>
 
         <div className="head-title">
             <h2>Hireasy Insider's</h2>
