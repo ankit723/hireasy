@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hireasy/static/css/main.2db0b1b8.css",
-    "main.js": "/hireasy/static/js/main.803b6221.js",
+    "main.css": "/hireasy/static/css/main.e1a61ed8.css",
+    "main.js": "/hireasy/static/js/main.3a63410a.js",
     "static/js/787.3e913c4d.chunk.js": "/hireasy/static/js/787.3e913c4d.chunk.js",
     "static/media/cbse.png": "/hireasy/static/media/cbse.4065b19fe880efa33441.png",
     "static/media/bg4.jpg": "/hireasy/static/media/bg4.3868177b09333683c520.jpg",
@@ -11,12 +11,12 @@
     "static/media/bg3.jpg": "/hireasy/static/media/bg3.9c684944e9c21587f199.jpg",
     "static/media/logo.png": "/hireasy/static/media/logo.d68727c945758e73449f.png",
     "index.html": "/hireasy/index.html",
-    "main.2db0b1b8.css.map": "/hireasy/static/css/main.2db0b1b8.css.map",
-    "main.803b6221.js.map": "/hireasy/static/js/main.803b6221.js.map",
+    "main.e1a61ed8.css.map": "/hireasy/static/css/main.e1a61ed8.css.map",
+    "main.3a63410a.js.map": "/hireasy/static/js/main.3a63410a.js.map",
     "787.3e913c4d.chunk.js.map": "/hireasy/static/js/787.3e913c4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2db0b1b8.css",
-    "static/js/main.803b6221.js"
+    "static/css/main.e1a61ed8.css",
+    "static/js/main.3a63410a.js"
   ]
 }
