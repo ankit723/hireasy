@@ -55,24 +55,27 @@ function App() {
       {/* extreme top section */}
 
       <div className="container">
-          <h1>
-              Hireasy <br/> Your partner in finance
-          </h1>
+        <div className="row">
+            <h1>
+                Hireasy <br/> Your partner in finance
+            </h1>
 
-          <p>
-              We are provide best in className services provided, by the <br />
-              best developers at a very resonable price. The only moto<br />
-              of our company is to enhance your financial and technical status.
-          </p>
+            <p>
+                We are provide best in className services provided, by the <br />
+                best developers at a very resonable price. The only moto<br />
+                of our company is to enhance your financial and technical status.
+            </p>
 
           <div className="button">
               <a href="addmissions.html">Get Service</a>
           </div>
+        </div>
       </div>
 
       {/* Insider section */}
 
       <div className="cont-insider">
+
 
         <div className="head-title">
             <h2>Hireasy Insider's</h2>
@@ -82,7 +85,7 @@ function App() {
             </div>
         </div>
 
-        <div className="insiders1">
+        <div className="insiders1" id='insiders1' >
             <div className="management">
                 <img src={mg} alt=""/>
                 <h3>Management</h3>
@@ -123,6 +126,67 @@ function App() {
                 </p>
             </div>
             
+            <div className="galary">
+                <img src={gl} alt=""/>
+                <h3>Galary</h3>
+                <p className="manage-p">
+                    Here you will find a large collection of some 
+                    of our best photos to give you a peek at Our Workspace
+                </p>
+            </div>
+            
+            <div className="cbse">
+                <img src={cbse} alt=""/>
+                <h3>Company Details</h3>
+                <p className="manage-p">
+                    Cick Here To See The Details Of The Company!
+                </p>
+            </div>
+        </div>  
+
+        <div className="insiders3">
+            <div className="management">
+                <img src={mg} alt=""/>
+                <h3>Management</h3>
+                <p className="manage-p">
+                    Every service provider needs to have systems
+                    that help create the conditions for 
+                    Developers and Service user to work effectively together...
+                </p>
+            </div>
+            
+            <div className="Transfer">
+                <img src={tc} alt=""/>
+                <h3>Terms and Conditions</h3>
+                <p className="manage-p">
+                    Here you can find the terms and conditions of the 
+                    service provider as well as the Developers
+                </p>
+            </div>
+        </div> 
+        
+        <div className="insiders4">
+            <div className="fee">
+                <img src={fee} alt=""/>
+                <h3>Monetary Structure</h3>
+                <p className="manage-p">
+                    Here you can find the monetary structure i.e. the
+                    base fee of the service provider and the Developers
+                </p>
+            </div>
+
+            <div className="library">
+                <img src={lb} alt=""/>
+                <h3>Testemonials</h3>
+                <p className="manage-p">
+                    We believe you money is precious and we want to make sure
+                    that you invest it in the right way at the right thing.
+                    To Check The Testimonials of  developers click here!
+                </p>
+            </div>
+        </div>
+
+        <div className="insiders5">
             <div className="galary">
                 <img src={gl} alt=""/>
                 <h3>Galary</h3>
@@ -210,12 +274,14 @@ function scrollFunction() {
       document.getElementById("navbar").style.backgroundColor = "transparent";
       document.getElementById("navbar").style.boxShadow = "none";
       document.getElementById("title-name").style.transition="0.5s";
-      document.getElementById("title-name").style.marginLeft="139px";
+      document.getElementById("title-name").style.marginLeft="8.5rem";
       document.getElementById("title-name").style.opacity="1";
       document.getElementById("title").style.opacity="1";
 
   }
 }
 window.onscroll = function() {scrollFunction()};
+
+
 
 export default App;
