@@ -67,7 +67,10 @@ function App() {
             </p>
 
           <div className="button">
-              <a href="addmissions.html">Get Service</a>
+            <ul>
+                <li><a href="addmissions.html">Get Service</a></li>
+                <li><a href="addmissions.html">Get Hired</a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -80,7 +83,7 @@ function App() {
         <div className="head-title">
             <h2>Hireasy Insider's</h2>
             <div className="title-discription">
-                <p>In this section you can find out more about how the hiring and services process work and more</p>
+                <p>Find out more about how the hiring and services process work and more</p>
                 <p id="next-p">Welcome to Hireasy.co</p>
             </div>
         </div>
@@ -145,62 +148,68 @@ function App() {
         </div>  
 
         <div className="insiders3">
-            <div className="management">
-                <img src={mg} alt=""/>
-                <h3>Management</h3>
-                <p className="manage-p">
-                    Every service provider needs to have systems
-                    that help create the conditions for 
-                    Developers and Service user to work effectively together...
-                </p>
-            </div>
-            
-            <div className="Transfer">
-                <img src={tc} alt=""/>
-                <h3>Terms and Conditions</h3>
-                <p className="manage-p">
-                    Here you can find the terms and conditions of the 
-                    service provider as well as the Developers
-                </p>
-            </div>
-        </div> 
-        
+                <div class="management">
+                    <img src={mg} alt="" className='inside_img'/>
+                    <h3>Management</h3>
+                    <p className="manage-p">
+                    Every service provider needs to have
+                    systems that help create the conditions 
+                    for Developers and Service user to work 
+                    effectively together...
+                    </p>
+                </div>
+                
+                <div class="Transfer">
+                    <img src={tc} alt="" className='inside_img'/>
+                    <h3>T and C</h3>
+                    <p className="manage-p">
+                    Here you can find the terms and 
+                    conditions of the service provider 
+                    as well as the Developers
+                    </p>
+                </div>
+        </div>
+
         <div className="insiders4">
-            <div className="fee">
-                <img src={fee} alt=""/>
+            <div class="fee">
+                <img src={fee} alt="" className='inside_img'/>
                 <h3>Monetary Structure</h3>
                 <p className="manage-p">
-                    Here you can find the monetary structure i.e. the
-                    base fee of the service provider and the Developers
+                Here you can find the monetary structure 
+                i.e. the base fee of the service provider 
+                and the Developers
                 </p>
             </div>
 
-            <div className="library">
-                <img src={lb} alt=""/>
+            <div class="library">
+                <img src={lb} alt="" className='inside_img'/>
                 <h3>Testemonials</h3>
                 <p className="manage-p">
-                    We believe you money is precious and we want to make sure
-                    that you invest it in the right way at the right thing.
-                    To Check The Testimonials of  developers click here!
+                We believe you money is precious and 
+                we want to make sure that you invest 
+                it in the right way at the right thing. 
+                To Check The Testimonials of developers 
+                click here!
                 </p>
             </div>
         </div>
 
         <div className="insiders5">
-            <div className="galary">
-                <img src={gl} alt=""/>
+            <div class="galary">
+                <img src={gl} alt="" className='inside_img'/>
                 <h3>Galary</h3>
                 <p className="manage-p">
-                    Here you will find a large collection of some 
-                    of our best photos to give you a peek at Our Workspace
+                Here you will find a large collection 
+                of some of our best photos to give you 
+                a peek at Our Workspace....
                 </p>
             </div>
             
-            <div className="cbse">
-                <img src={cbse} alt=""/>
+            <div class="cbse">
+                <img src={cbse} alt="" className='inside_img'/>
                 <h3>Company Details</h3>
                 <p className="manage-p">
-                    Cick Here To See The Details Of The Company!
+                Cick Here To See The Details Of The Company!
                 </p>
             </div>
         </div>       
